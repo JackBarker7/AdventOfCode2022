@@ -35,7 +35,7 @@ int main()
         auto ids_2 = get_ids(assignments[1]);
 
         // check if first pair begins between bounds of second pair, or vice versa
-        if (((ids_2[0]<=ids_1[0]) && (ids_1[0]<=ids_2[1]))||((ids_1[0]<=ids_2[0]) && (ids_2[0]<=ids_1[1])))
+        if (((ids_2[0] <= ids_1[0]) && (ids_1[0] <= ids_2[1])) || ((ids_1[0] <= ids_2[0]) && (ids_2[0] <= ids_1[1])))
         {
             count++;
         }
