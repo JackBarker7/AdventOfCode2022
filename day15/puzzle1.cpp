@@ -1,5 +1,3 @@
-// a much more efficient algorithm that actually works for the main dataset
-// we only check along the line of interest
 #include <iostream>
 #include <fstream>
 #include <string>
